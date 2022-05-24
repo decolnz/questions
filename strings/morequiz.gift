@@ -1,0 +1,125 @@
+- Which of the following are valid ways to specify the string literal foo'bar in Python:
+
+
+'foo'bar'
+'foo\'bar'
+"foo'bar"
+"""foo'bar"""
+'foo''bar'
+
+
+- Write an expression for a string literal consisting of the following ASCII characters:
+
+Horizontal Tab character
+Newline (ASCII Linefeed) character
+The character with hexadecimal value 7E
+
+
+- Consider this statement:
+
+>>> print(r'foo\\bar\nbaz')
+Which of the following is the correct REPL output?
+
+
+foo\bar
+baz
+
+foo\\bar\nbaz
+foo\bar\nbaz
+foo\\barnbaz
+
+
+- Which of the following is not a Python built-in function:
+
+
+round()
+diff()
+map()
+repr()
+isinstance()
+
+
+- What is the key difference between Python scripts and modules?
+
+
+The main difference between a module and a script is that modules are meant to be imported, while scripts are made to be directly executed
+The main difference between a module and a script is that scripts are meant to be imported, while modules are made to be directly executed.
+
+
+- What are some of the ways we can use to run Python code interactively? Select all that apply:
+
+
+Linux: Entering python execute in the Terminal window (depending on the Linux distribution)
+macOS: Entering python3 in the Terminal
+Windows: Entering run python in the Windows Run dialog
+Linux: Entering python3 in the Terminal window (depending on the Linux distribution)
+macOS: Entering python run in the Terminal
+Windows: Entering python in the command prompt
+
+
+
+
+- When you try to run Python scripts, a multi-step process begins. In this process the interpreter performs three steps:
+
+Ship off the code for execution.
+Process the statements of your script in a sequential fashion.
+Compile the source code to an intermediate format known as bytecode.
+Identify the correct order of these steps:
+
+
+2 → 3 → 1
+3 → 2 → 1
+1 → 2 → 3
+1 → 3 → 2
+
+
+- The following executable Python code, stored as a file, doesn’t execute from a file manager on a Linux machine.
+
+print("Welcome to Real Python!")
+What should we add to the first line of the file to ensure it runs? Select all that apply.
+
+
+#!/usr/bin/env python3
+#!/usr/bin/python
+#!/usr/bin/env python
+#!/usr/bin python
+
+
+
+- Consider the following Python script:
+
+script.py
+print("Welcome to Real Python!")
+
+When you click on the file using a Windows file explorer, the script executes but you are unable to see the output. How would you fix that?
+
+
+*import time
+print("Welcome to Real Python!")
+time.sleep(3)
+
+*There is no output as the script has an error.
+
+*There is nothing to output.
+
+*import time
+print("Welcome to Real Python!")
+time.stay(3)
+
+
+- Consider you import a module(hello) into a Python script(script.py) that you are working on. Simultaneously you realize that the module is missing a statement, so you update the module. To make sure your current script imports these new changes in your Python session, what do you need to do?
+
+
+Import importlib and use reload to import the new changes into the module.
+
+import importlib
+importlib.reload('hello')
+
+The Python interpreter will detect the updates in the module.
+
+
+Import importlib and use reload to import the new changes into the module.
+
+import importlib
+importlib.reload(hello)
+
